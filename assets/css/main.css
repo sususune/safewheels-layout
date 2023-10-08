@@ -17,10 +17,31 @@
   --font-secondary: "Poppins", sans-serif;
 }
 
+
+/*  Button Login */
+.btn-login{
+  background-color: #f86049;
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 6px 25px;
+  border-radius: 50px;
+  transition: 0.3s;
+  color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.btn-login:hover{
+ background-color: #f83315;
+}
+
 /* Colors */
 :root {
   --color-default: #222222;
-  --color-primary: #008374;
+  --color-primary: #00285D;
   --color-secondary: #f85a40;
 }
 
@@ -238,7 +259,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 .topbar {
-  background: #00796b;
+  background: #00285D;;
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -499,7 +520,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(0, 131, 116, 0.9);
+    background: #00285D;
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -545,7 +566,7 @@ section {
   .navbar .getstarted:hover,
   .navbar .getstarted:focus:hover {
     color: #fff;
-    background: rgba(0, 131, 116, 0.8);
+    background: #00285D;
   }
 
   .navbar .dropdown ul,
@@ -555,8 +576,8 @@ section {
     padding: 10px 0;
     margin: 10px 20px;
     transition: all 0.5s ease-in-out;
-    background-color: #007466;
-    border: 1px solid #006459;
+    background-color:#00285D;
+    border: 1px solid #00285D;
   }
 
   .navbar .dropdown>.dropdown-active,
@@ -598,7 +619,7 @@ section {
     content: "";
     position: fixed;
     inset: 0;
-    background: rgba(0, 106, 93, 0.8);
+    background:#00285D;
     z-index: 9996;
   }
 }
@@ -681,7 +702,7 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(0, 131, 116, 0.7);
+  border: 5px solid #00285D;;
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
@@ -855,7 +876,7 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(0, 131, 116, 0.7);
+  border: 5px solid#00285D;;
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
@@ -996,7 +1017,7 @@ section {
 }
 
 .services .service-item:hover .icon:before {
-  background: #00b6a1;
+  background:#f86049;
 }
 
 .services .service-item:hover h3 {
@@ -1720,7 +1741,7 @@ section {
 
 .contact .info-item {
   width: 100%;
-  background-color: #009282;
+  background-color: #f8654f;
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 10px;
