@@ -2053,7 +2053,11 @@
   .hero .icon-box:hover .icon {
     color: #fff;
   }
-  
+
+  .hero .form-check {
+    display: flex;
+    justify-content: space-between;
+  }
   /*--------------------------------------------------------------
   # Blog
   --------------------------------------------------------------*/
