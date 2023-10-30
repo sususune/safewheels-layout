@@ -14,7 +14,7 @@
 :root {
   --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-primary: "Montserrat", sans-serif;
-  --font-secondary: "Poppins", sans-serif;
+  --font-secondary: "Montserrat", sans-serif;
 }
 
 
@@ -129,7 +129,15 @@ section {
   position: relative;
   background-color: var(--color-primary);
 }
-
+#bread_ban{
+  background-image: url("../img/banheiro.jpg");
+}
+#bread_ram{
+  background-image: url("../img/rampa.jpg") ;
+}
+#bread_bar{
+  background-image: url("../img/digital2.jpg");
+}
 .breadcrumbs .page-header h2 {
   font-size: 56px;
   font-weight: 500;
@@ -259,7 +267,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 .topbar {
-  background: #00285D;;
+  background: #00285D;
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -449,7 +457,7 @@ section {
     font-size: 15px;
     text-transform: none;
     font-weight: 600;
-    color: #006a5d;
+    color: #00285D;
   }
 
   .navbar .dropdown ul a i {
@@ -520,7 +528,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: #00285D;
+    background: #00224e;
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -569,6 +577,13 @@ section {
     background: #00285D;
   }
 
+  .navbar button{
+    height: 30pt;
+    width: 80pt;
+    margin-left:  10pt;
+
+  }
+
   .navbar .dropdown ul,
   .navbar .dropdown .dropdown ul {
     position: static;
@@ -576,8 +591,8 @@ section {
     padding: 10px 0;
     margin: 10px 20px;
     transition: all 0.5s ease-in-out;
-    background-color:#00285D;
-    border: 1px solid #00285D;
+    background-color:#001b3d;
+    border: 1px solid #001b3d;
   }
 
   .navbar .dropdown>.dropdown-active,
@@ -619,7 +634,7 @@ section {
     content: "";
     position: fixed;
     inset: 0;
-    background:#00285D;
+    background:#00285d77;
     z-index: 9996;
   }
 }

@@ -17,6 +17,26 @@
     --font-secondary: "Poppins", sans-serif;
   }
   
+/*  Button Login */
+.btn-login{
+  background-color: #f86049;
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 6px 25px;
+  border-radius: 50px;
+  transition: 0.3s;
+  color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.btn-login:hover{
+ background-color: #f83315;
+}
+
 
   /*Page Login*/
 .btn-log{
@@ -33,8 +53,8 @@
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
     border: 2px solid rgba(255, 255, 255, 0.1);
 }
-.btn.log:hover{
-    background-color: #9c2613;
+.btn-log:hover{
+    background-color: #cf2507;
     font-family: var(--font-primary);
     font-weight: 500;
     font-size: 15px;
@@ -479,7 +499,7 @@
       font-size: 15px;
       text-transform: none;
       font-weight: 600;
-      color: #006a5d;
+      color: #00285D;
     }
   
     .navbar .dropdown ul a i {
@@ -550,12 +570,11 @@
       inset: 0;
       padding: 50px 0 10px 0;
       margin: 0;
-      background: #00285D;
+      background: #00224e;
       overflow-y: auto;
       transition: 0.3s;
       z-index: 9998;
     }
-  
     .navbar a,
     .navbar a:focus {
       display: flex;
@@ -606,8 +625,8 @@
       padding: 10px 0;
       margin: 10px 20px;
       transition: all 0.5s ease-in-out;
-      background-color:#00285D;
-      border: 1px solid #00285D;
+      background-color:#001b3d;
+      border: 1px solid #001b3d;
     }
   
     .navbar .dropdown>.dropdown-active,
@@ -649,7 +668,7 @@
       content: "";
       position: fixed;
       inset: 0;
-      background:#00285D;
+      background:#00285db0;
       z-index: 9996;
     }
   }
@@ -1921,7 +1940,7 @@
   .hero {
     width: 100%;
     position: relative;
-    background: var(--color-primary);
+    background: #eeeeee;
     padding: 60px 0 0 0;
   }
   
@@ -1930,7 +1949,9 @@
       background-attachment: fixed;
     }
   }
-  
+  .hero b{
+    color: #00285D;
+  }
   .hero h2 {
     font-size: 48px;
     font-weight: 700;
@@ -1939,7 +1960,7 @@
   }
   
   .hero p {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgb(0, 0, 0);
     font-weight: 400;
     margin-bottom: 30px;
   }
