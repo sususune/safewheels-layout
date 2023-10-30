@@ -2077,7 +2077,7 @@
 
   .hero .form-check {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
   }
   /*--------------------------------------------------------------
   # Blog
